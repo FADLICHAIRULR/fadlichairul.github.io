@@ -1,0 +1,100 @@
+DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Diri Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4a90e2, #357ABD);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #357ABD;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Data Diri Saya</h1>
+    <p>Selamat datang di website pribadi saya</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Profil</h2>
+      <p><strong>Nama:</strong> [Isi Nama Kamu]</p>
+      <p><strong>Tempat, Tanggal Lahir:</strong> [Isi Tempat, Tanggal]</p>
+      <p><strong>Alamat:</strong> [Isi Alamat Kamu]</p>
+    </div>
+
+    <div class="card">
+      <h2>Pendidikan</h2>
+      <ul>
+        <li>Sekolah Dasar: [Isi SD]</li>
+        <li>SMP: [Isi SMP]</li>
+        <li>SMA/SMK: [Isi SMA/SMK]</li>
+        <li>Perguruan Tinggi: [Isi Jika Ada]</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Keterampilan</h2>
+      <ul>
+        <li>[Contoh: Microsoft Office]</li>
+        <li>[Contoh: Desain Grafis]</li>
+        <li>[Contoh: Pemrograman]</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:emailkamu@gmail.com">emailkamu@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/username" target="_blank">@username</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Website Data Diri Saya</p>
+  </footer>
+</body>
+</html>
